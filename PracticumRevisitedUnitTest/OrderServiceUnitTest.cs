@@ -7,9 +7,9 @@ using PracticumRevisitedLibrary.Processors;
 namespace PracticumRevisitedUnitTest
 {
     [TestClass]
-    public class RestaurantServiceUnitTest
+    public class OrderServiceUnitTest
     {  
-        private static IRestaurantService _restaurantService;
+        private static IOrderService _restaurantService;
 
         [TestInitialize()]
         public void Initialize()
@@ -17,7 +17,7 @@ namespace PracticumRevisitedUnitTest
              var parser = new Parser();
              var repository = new DishRepository(); 
              List<IProcessor> processors = GetProcessors(repository);
-             _restaurantService = new RestaurantService(parser, processors);
+             _restaurantService = new OrderService(parser, processors);
         }
 
         private List<IProcessor> GetProcessors(IRepository repository)

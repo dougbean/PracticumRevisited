@@ -56,7 +56,7 @@
     <Compile Include="OrderExpeditorProcessorUnitTest.cs" />
     <Compile Include="ParserUnitTest.cs" />
     <Compile Include="RepositoryUnitTest.cs" />
-    <Compile Include="RestaurantServiceUnitTest.cs" />
+    <Compile Include="OrderServiceUnitTest.cs" />
     <Compile Include="ResultStringBuilderProcessorUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

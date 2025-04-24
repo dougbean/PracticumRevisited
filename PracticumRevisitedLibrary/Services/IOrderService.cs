@@ -1,7 +1,7 @@
 ﻿
 namespace PracticumRevisitedLibrary.Services
 {
-    public interface IRestaurantService
+    public interface IOrderService
     {
         string ProcessOrder(string input);
     }

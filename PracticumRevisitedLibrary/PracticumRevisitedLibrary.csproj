@@ -49,9 +49,9 @@
     <Compile Include="Repository\DishRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Services\IParser.cs" />
-    <Compile Include="Services\IRestaurantService.cs" />
+    <Compile Include="Services\IOrderService.cs" />
     <Compile Include="Services\Parser.cs" />
-    <Compile Include="Services\RestaurantService.cs" />
+    <Compile Include="Services\OrderService.cs" />
     <Compile Include="Processors\DishTypeItemCountProcessor.cs" />
     <Compile Include="Processors\DuplicateNotAllowedProcessor.cs" />
     <Compile Include="Processors\IProcessor.cs" />

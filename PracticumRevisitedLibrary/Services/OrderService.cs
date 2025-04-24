@@ -4,12 +4,12 @@ using PracticumRevisitedLibrary.Processors;
 
 namespace PracticumRevisitedLibrary.Services
 {
-    public class RestaurantService : IRestaurantService
+    public class OrderService : IOrderService
     {
         private IParser _parser;
         private IList<IProcessor> _processors;
 
-        public RestaurantService(IParser parser, IList<IProcessor> processors)
+        public OrderService(IParser parser, IList<IProcessor> processors)
         {
             _parser = parser;
             _processors = processors;

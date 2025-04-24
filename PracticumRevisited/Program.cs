@@ -14,7 +14,7 @@ namespace PracticumRevisited
             var parser = new Parser();
             var repository = new DishRepository();
             List<IProcessor> processors = GetProcessors(repository);
-            var restaurantService = new RestaurantService(parser, processors);
+            var restaurantService = new OrderService(parser, processors);
             
             while (true)
             {
